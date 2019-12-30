@@ -3,7 +3,7 @@ pipeline{
 	
 	stages{
 		stage('checkout'){
-			git checkout
+			git 'https://github.com/sarath143/jenkins-example.git'
 		}
 		stage('Run primenumber series'){
 			steps{
