@@ -8,7 +8,9 @@ pipeline{
 			}
 		}	
 		stage('prime series'){
+			steps{
 			echo 'Prime series started..'	
+			}
 		}
 	}
 }
