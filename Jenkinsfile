@@ -3,7 +3,9 @@ pipeline{
 	
 	stages{
 		stage('checkout'){
+			steps{
 			git 'https://github.com/sarath143/jenkins-example.git'
+			}
 		}		
 	}
 }
