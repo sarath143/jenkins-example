@@ -9,7 +9,7 @@ pipeline{
 		}	
 		stage('prime series'){
 			steps{	
-			python primenumber_series.py 10
+			bat label: 'Prime series numbers', script: 'python primenumber_series.py 10'
 			}
 		}
 	}
