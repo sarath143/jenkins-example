@@ -9,7 +9,8 @@ pipeline{
 		}	
 		stage('prime series'){
 			steps{	
-				echo %path%
+				echo 'prime series started...'
+				bat label 'Prime series-', 'python primenumber_series.py 10'
 			}
 		}
 	}
