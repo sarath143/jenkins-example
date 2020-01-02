@@ -10,6 +10,10 @@ pipeline{
 		stage('prime series'){
 			steps{
 			echo 'Prime series started..'	
+			
+			}
+			steps{
+				
 			python primenumber_series.py 10
 			}
 		}
