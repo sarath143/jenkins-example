@@ -18,13 +18,13 @@ pipeline{
 				stage('Fibnocee Series'){
 					steps{	
 						echo 'fibo series started...'
-						bat label: 'fibo series num', script: 'python -u fibonacci_series.py 1'
+						bat label: 'fibo series num', script: 'python -u fibonacci_series.py %input_number%'
 					}
 				}
 				stage('Factorial Series'){
 					steps{	
 						echo 'facrorial series started...'
-						bat label: 'fact series num', script: 'python -u factorial_series.py 1'
+						bat label: 'fact series num', script: 'python -u factorial_series.py %input_number%'
 					}
 				}
 				
