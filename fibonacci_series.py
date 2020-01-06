@@ -14,7 +14,7 @@ def generate_numbers(number):
 	elif nterms == 1:
 	   print("Fibonacci sequence upto",nterms,":")
 	   print(n1)
-	   time.sleep(10)
+	   time.sleep(3000)
 	else:
 	   print("Fibonacci sequence:")
 	   while count < nterms:
