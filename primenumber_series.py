@@ -10,7 +10,7 @@ def generate_numbers(number):
 					break
 			else:
 				print(num)
-		time.sleep(3)
+		time.sleep(1)
 
 number = int(sys.argv[1])
 generate_numbers(number)
