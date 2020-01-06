@@ -11,4 +11,3 @@ def generate_numbers(number):
 number = int(sys.argv[1])
 for x in generate_numbers(number):
 	print(x)
-	time.sleep(10)
