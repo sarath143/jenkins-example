@@ -10,7 +10,7 @@ pipeline{
 		stage('prime series'){
 			steps{	
 				echo 'prime series started...'
-				bat label: 'Prime series num', script: 'python primenumber_series.py 10'
+				bat label: 'Prime series num', script: 'python primenumber_series.py 1000'
 			}
 		}
 	}
