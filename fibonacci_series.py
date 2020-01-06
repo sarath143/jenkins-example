@@ -1,5 +1,6 @@
 import sys
 import math
+import time
 
 def generate_numbers(number):
 	nterms = number
@@ -17,6 +18,7 @@ def generate_numbers(number):
 	   print("Fibonacci sequence:")
 	   while count < nterms:
 		   print(n1)
+		   time.sleep(0.5)
 		   nth = n1 + n2
 		   # update values
 		   n1 = n2
